@@ -1,3 +1,9 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:display=swap");
+
 body {
   display: flex;
   flex-direction: column;
@@ -19,12 +25,15 @@ body {
 
 .top .header h2 {
   margin-right: auto;
+  font-family: "Noto Sans", sans-serif;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .top a {
   text-decoration: none;
   color: #e5e7eb;
+  font-family: "Noto Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -47,6 +56,8 @@ body {
   margin: 0;
 }
 .top .introduction .awesome-box p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
   font-size: 18px;
   color: #bcbcbc;
   margin-top: 0px;
@@ -62,7 +73,8 @@ body {
 }
 
 .top .introduction .awesome-box button {
-  padding: 10px 30px;
+  font-family: "Noto Sans", sans-serif;
+  padding: 10px 40px;
   border-radius: 10px;
   background-color: #3882f6;
   color: #fff;
@@ -75,6 +87,7 @@ body {
 }
 
 .random-info-container h2 {
+  font-family: "Noto Sans", sans-serif;
   font-size: 36px;
   font-weight: 900;
 }
@@ -88,6 +101,7 @@ body {
   width: 170px;
   color: #60676e;
   font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
 }
 .random-info-container .card {
@@ -111,14 +125,15 @@ body {
   display: flex;
   flex-direction: column;
   padding: 40px 0 30px 0;
-  width: 700px;
+  width: 800px;
 }
 
 .quote-container .quote-text {
-  width: 700px;
   font-size: 36px;
+  font-family: "Noto Sans", sans-serif;
   font-style: italic;
-  font-weight: light;
+  font-weight: 200;
+  color: #1f2937;
   align-self: center;
   margin-bottom: 0;
 }
@@ -126,8 +141,8 @@ body {
 .quote-container .quote-author {
   margin-top: 0;
   align-self: self-end;
+  font-family: "Noto Sans", sans-serif;
   font-size: 25px;
-  font-weight: 900;
 }
 
 .action-container {
@@ -143,24 +158,26 @@ body {
   color: #fff;
 }
 .call-to-action-text-container h3 {
+  font-family: "Noto Sans", sans-serif;
   font-size: 25px;
   font-weight: 900;
   margin-bottom: 0;
 }
 .call-to-action-text-container p {
+  font-family: "Noto Sans", sans-serif;
   font-size: 20px;
-  font-weight: light;
+  font-weight: 200;
   margin-top: 0;
 }
 
 .action-container button {
+  font-family: "Noto Sans", sans-serif;
   align-self: center;
   flex-grow: 0;
-  padding: 10px 30px;
+  padding: 10px 40px;
   border-radius: 10px;
   border: 2px solid #fff;
   background-color: #3882f6;
-  height: 50px;
   color: #fff;
 }
 
