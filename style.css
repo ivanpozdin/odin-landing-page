@@ -54,14 +54,11 @@ body {
   margin-bottom: 10px;
 }
 
-.top .introduction .image-placeholder {
-  background-color: #60676e;
-  color: #9c9c9c;
-  width: 35vw;
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.top .image-introduction {
+  object-fit: cover;
+  object-position: center;
+  height: 300px;
+  width: 600px;
 }
 
 .top .introduction .awesome-box button {
@@ -98,6 +95,8 @@ body {
   border-radius: 18px;
   width: 170px;
   height: 170px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .quote-background {
